@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;  color: #B9D6F2; font-size: 70px;">welcome</h1>
+    <div class="container">
+        <h2 style="text-align: center; font-weight: 700; color: #B9D6F2;">Calculator</h2>
+        <input type="text" id="show"/>
+        <table > 
+            <tr>
+                <td><input type="button" value="9" onclick="num('9')"/></td>
+                <td><input type="button" value="8" onclick="num('8')"/></td>
+                <td><input type="button" value="7" onclick="num('7')"/></td>
+                <td><input type="button" class="arth" value="/" onclick="num('/')"/></td>
+                <td><input type="button" class="arth" value="*" onclick="num('*')"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="6" onclick="num('6')"/></td>
+                <td><input type="button" value="5" onclick="num('5')"/></td>
+                <td><input type="button" value="4" onclick="num('4')"/></td>
+                <td><input type="button" class="arth" value="-" onclick="num('-')"/></td>
+                <td><input type="button" class="arth" value="+" onclick="num('+')"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="3" onclick="num('3')"/></td>
+                <td><input type="button" value="2" onclick="num('2')"/></td>
+                <td><input type="button" value="1" onclick="num('1')"/></td>
+                <td><input class="arth" type="button" value="." onclick="num('.')"/></td>
+                <td><input class="arth" type="button" value="C" onclick="clr()"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="0" onclick="num('0')"/></td>
+                <td></td>
+                <td><input class="arth" type="button" value="%" onclick="num('%')"/></td>
+                <td><input class="arth" type="button" value="=" onclick="solve()"/></td>
+            </tr>
+        </table>
+
+    </div>
+    <footer>
+        <h4>visit on :&nbsp;  <a href="https://github.com/huzefaTaj">Github</a>&nbsp; <a href="https://huzefataj.github.io/portfolio/">Portfolio</a></h4>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
